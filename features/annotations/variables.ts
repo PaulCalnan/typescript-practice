@@ -28,7 +28,8 @@ let point: { x: number; y: number } = {
 
 // Function -> TYPE ANNOTATION PART -> 
 // : (i: number) => void -> 
-// THEN THE ACTUAL FUNCTION COMES AFTER THE TYPE ANNOTATION
+// THEN THE ACTUAL FUNCTION AND ARGUMENTS COME AFTER THE TYPE ANNOTATION
+// VOID is used where you could declare annotation types on function expected return values (VOID for nothing returned)
 const logNumber: (i: number) => void = (i: number) => {
   console.log(i);
 };
