@@ -13,7 +13,7 @@ const oldCivic = {
 const printVehicle = (vehicle: Vehicle): void => {
   console.log(`Name: ${vehicle.name}`);
   console.log(`Year: ${vehicle.year}`);
-  console.log(`Broken: ${vehicle.broken}`);
+  console.log(`Broken? ${vehicle.broken}`);
 };
 
 printVehicle(oldCivic);
